@@ -17,4 +17,4 @@ output_key = "datos_limpios.csv"
 
 s3.put_object(Bucket= bucket_name,Key=output_key,Body= df_clean.to_csv(index=False))
 
-print("Proceso ETL completado")
+print("Proceso ETL completados")
